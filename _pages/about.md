@@ -6,7 +6,7 @@ subtitle: <a href='https://www.lmu.de/en/'>LMU Munich</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: picture.jpg
   image_circular: false # crops the image to make it circular
  
 news: false # includes a list of news items
