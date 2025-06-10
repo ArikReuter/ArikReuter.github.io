@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 latest_posts: false
 ---
 
-I am an MSc student in [Data Science](https://www.m-datascience.mathematik-informatik-statistik.uni-muenchen.de/index.html) at LMU Munich. I have a BSc degree in Mathematical Data Science from Georg August University of Göttingen.
+I am a PhD student at the Max Planck Institute for Intelligent Systems working with Bernhard Schölkopf. 
 
 Please feel free to contact me via [email](https://mailhide.io/e/sQh9RitB). 
 
