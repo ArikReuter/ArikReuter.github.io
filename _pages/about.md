@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.lmu.de/en/'>LMU Munich</a>
+subtitle: /
 
 profile:
   align: right
@@ -15,7 +15,7 @@ social: true # includes social icons at the bottom of the page
 latest_posts: false
 ---
 
-I am a PhD student at the Max Planck Institute for Intelligent Systems working with Bernhard Schölkopf. 
+I am a PhD student at the University of Cambridge and the Max Planck Institute for Intelligent Systems in Tübingen, working with Bernhard Schölkopf, Adrian Weller and José Miguel Hernández-Lobato.
 
 Please feel free to contact me via [email](https://mailhide.io/e/sQh9RitB). 
 
