@@ -19,6 +19,8 @@ latest_posts: false
 
 I am a PhD student at the University of Cambridge and the Max Planck Institute for Intelligent Systems in Tübingen, working with Bernhard Schölkopf, Adrian Weller and José Miguel Hernández-Lobato.
 
+My research focuses on tabular causal foundation models. Causal questions arise across many fields, and I study how foundation models can help answer them.
+
 Please feel free to contact me via [email](https://mailhide.io/e/sQh9RitB). 
 
 You can also find me on [Google Scholar](https://scholar.google.com/citations?user=ei6AssYAAAAJ) and [GitHub](https://github.com/ArikReuter).
