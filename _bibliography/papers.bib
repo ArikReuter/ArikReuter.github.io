@@ -1,18 +1,41 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+% Prefer the latest published conference proceedings or journal version.
+% Verify metadata against primary sources; retain citation keys when updating versions.
 
----
----
+@inproceedings{reuter2026use,
+  title={Use What You Know: Causal Foundation Models with Partial Graphs},
+  author={Reuter, Arik and Dhir, Anish and Diaconu, Cristiana and Robertson, Jake and Ossen, Ole and Hutter, Frank and Weller, Adrian and van der Wilk, Mark and Sch{\"o}lkopf, Bernhard},
+  booktitle={Forty-third International Conference on Machine Learning},
+  year={2026},
+  url={https://openreview.net/forum?id=l1PVCATRCx},
+  selected = {true}
+}
 
-@string{aps = {American Physical Society,}}
+@inproceedings{thielmann2025marginal,
+  title={Beyond Black-Box Predictions: Identifying Marginal Feature Effects in Tabular Transformer Networks},
+  author={Thielmann, Anton Frederik and Reuter, Arik and S{\"a}fken, Benjamin},
+  booktitle={Proceedings of The 29th International Conference on Artificial Intelligence and Statistics},
+  series={Proceedings of Machine Learning Research},
+  volume={300},
+  pages={1540--1548},
+  year={2026},
+  publisher={PMLR},
+  url={https://proceedings.mlr.press/v300/thielmann26a.html},
+  selected = {true}
+}
 
 @inproceedings{robertson2025dopfn,
   title={Do-PFN: In-Context Learning for Causal Effect Estimation},
   author={Robertson, Jake and Reuter, Arik and Guo, Siyuan and Hollmann, Noah and Hutter, Frank and Sch{\"o}lkopf, Bernhard},
-  booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={38, Main Conference},
+  pages={174811--174848},
   year={2025},
+  publisher={Curran Associates, Inc.},
+  doi={10.52202/085713-5814},
+  url={https://proceedings.neurips.cc/paper_files/paper/2025/hash/ff997469ac66cf893c4183efeb22212a-Abstract-Conference.html},
   note={Spotlight},
   selected = {true}
 }
@@ -20,16 +43,26 @@
 @inproceedings{reuter2025bayestransformer,
   title={Can Transformers Learn Full Bayesian Inference in Context?},
   author={Reuter, Arik and Rudner, Tim G. J. and Fortuin, Vincent and R{\"u}gamer, David},
-  booktitle={Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={267},
+  pages={51531--51582},
   year={2025},
+  publisher={PMLR},
+  url={https://proceedings.mlr.press/v267/reuter25a.html},
   selected = {true}
 }
 
 @inproceedings{mueller2025priorfitted,
   title={Position: The Future of Bayesian Prediction Is Prior-Fitted},
-  author={M{\"u}ller, Sebastian and Reuter, Arik and Hollmann, Noah and R{\"u}gamer, David and Hutter, Frank},
-  booktitle={Proceedings of the 42nd International Conference on Machine Learning (ICML)},
+  author={M{\"u}ller, Samuel and Reuter, Arik and Hollmann, Noah and R{\"u}gamer, David and Hutter, Frank},
+  booktitle={Proceedings of the 42nd International Conference on Machine Learning},
+  series={Proceedings of Machine Learning Research},
+  volume={267},
+  pages={81861--81875},
   year={2025},
+  publisher={PMLR},
+  url={https://proceedings.mlr.press/v267/muller25d.html},
   selected = {true}
 }
 
@@ -37,24 +70,24 @@
   title={Probabilistic Topic Modeling With Transformer Representations},
   author={Reuter, Arik and Thielmann, Anton and Weisser, Christoph and S{\"a}fken, Benjamin and Kneib, Thomas},
   journal={IEEE Transactions on Neural Networks and Learning Systems},
+  volume={36},
+  number={8},
+  pages={14551--14565},
   year={2025},
-  selected = {true}
-}
-
-@article{thielmann2025marginal,
-  title={Beyond Black-Box Predictions: Identifying Marginal Feature Effects in Tabular Transformer Networks},
-  author={Thielmann, Anton and Reuter, Arik and Saefken, Benjamin},
-  journal={arXiv preprint arXiv:2504.08712},
-  year={2025},
+  doi={10.1109/TNNLS.2025.3538262},
+  url={https://doi.org/10.1109/TNNLS.2025.3538262},
   selected = {true}
 }
 
 @inproceedings{thielmann2024stream,
   title={STREAM: Simplified Topic Retrieval, Exploration, and Analysis Module},
-  author={Thielmann, Anton and Reuter, Arik and Weisser, Christoph and Kant, Gillian and Kumar, Manish and S{\"a}fken, Benjamin},
+  author={Thielmann, Anton Frederik and Reuter, Arik and S{\"a}fken, Benjamin and Weisser, Christoph and Kumar, Manish and Kant, Gillian},
   booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
   pages={435--444},
   year={2024},
+  publisher={Association for Computational Linguistics},
+  doi={10.18653/v1/2024.acl-short.41},
+  url={https://aclanthology.org/2024.acl-short.41/},
   selected = {true}
 }
 
@@ -63,17 +96,21 @@
   author={Thielmann, Anton Frederik and Reuter, Arik and Kneib, Thomas and R{\"u}gamer, David and S{\"a}fken, Benjamin},
   journal={Transactions on Machine Learning Research},
   year={2024},
+  url={https://openreview.net/forum?id=TdJ7lpzAkD},
   selected = {true}
 }
 
 @article{thielmann2024topics,
-  title={Topics in the haystack: Enhancing topic quality through corpus expansion},
+  title={Topics in the Haystack: Enhancing Topic Quality through Corpus Expansion},
   author={Thielmann, Anton and Reuter, Arik and Seifert, Quentin and Bergherr, Elisabeth and S{\"a}fken, Benjamin},
   journal={Computational Linguistics},
   volume={50},
   number={2},
   pages={619--655},
   year={2024},
+  publisher={MIT Press},
+  doi={10.1162/coli_a_00506},
+  url={https://aclanthology.org/2024.cl-2.5/},
   selected = {true}
 }
 
@@ -82,14 +119,16 @@
   author={Thielmann, Anton Frederik and Kumar, Manish and Weisser, Christoph and Reuter, Arik and S{\"a}fken, Benjamin and Samiee, Soheila},
   journal={arXiv preprint arXiv:2408.06291},
   year={2024},
+  url={https://arxiv.org/abs/2408.06291},
   selected = {true}
 }
 
 @article{reuter2024gptopic,
   title={GPTopic: Dynamic and Interactive Topic Representations},
-  author={Reuter, Arik and Khadka, Binod and Thielmann, Anton and Weisser, Christoph and Fischer, Sebastian and S{\"a}fken, Benjamin},
+  author={Reuter, Arik and Khadka, Bishnu and Thielmann, Anton and Weisser, Christoph and Fischer, Sebastian and S{\"a}fken, Benjamin},
   journal={arXiv preprint arXiv:2403.03628},
   year={2024},
+  url={https://arxiv.org/abs/2403.03628},
   selected = {true}
 }
 
@@ -98,6 +137,7 @@
   author={Reuter, Arik and Thielmann, Anton and Saefken, Benjamin},
   journal={arXiv preprint arXiv:2405.02295},
   year={2024},
+  url={https://arxiv.org/abs/2405.02295},
   selected = {true}
 }
 
@@ -110,101 +150,7 @@
   pages={647--674},
   year={2023},
   publisher={Springer},
-  selected = {true}
-}
-
-@inproceedings{reuter2025bayestransformer,
-  title={Can Transformers Learn Full Bayesian Inference in Context?},
-  author={Reuter, Arik and Rudner, Tim G. J. and Fortuin, Vincent and R{\"u}gamer, David},
-  booktitle={Proceedings of the 42nd International Conference on Machine Learning (ICML)},
-  year={2025},
-  selected = {true}
-}
-
-@inproceedings{mueller2025priorfitted,
-  title={Position: The Future of Bayesian Prediction Is Prior-Fitted},
-  author={M{\"u}ller, Sebastian and Reuter, Arik and Hollmann, Noah and R{\"u}gamer, David and Hutter, Frank},
-  booktitle={Proceedings of the 42nd International Conference on Machine Learning (ICML)},
-  year={2025},
-  selected = {true}
-}
-
-@article{reuter2025probabilistic,
-  title={Probabilistic Topic Modeling With Transformer Representations},
-  author={Reuter, Arik and Thielmann, Anton and Weisser, Christoph and S{\"a}fken, Benjamin and Kneib, Thomas},
-  journal={IEEE Transactions on Neural Networks and Learning Systems},
-  year={2025},
-  selected = {true}
-}
-
-@article{thielmann2025marginal,
-  title={Beyond Black-Box Predictions: Identifying Marginal Feature Effects in Tabular Transformer Networks},
-  author={Thielmann, Anton and Reuter, Arik and Saefken, Benjamin},
-  journal={arXiv preprint arXiv:2504.08712},
-  year={2025},
-  selected = {true}
-}
-
-@inproceedings{thielmann2024stream,
-  title={STREAM: Simplified Topic Retrieval, Exploration, and Analysis Module},
-  author={Thielmann, Anton and Reuter, Arik and Weisser, Christoph and Kant, Gillian and Kumar, Manish and S{\"a}fken, Benjamin},
-  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
-  pages={435--444},
-  year={2024},
-  selected = {true}
-}
-
-@article{thielmanninterpretable,
-  title={Interpretable Additive Tabular Transformer Networks},
-  author={Thielmann, Anton Frederik and Reuter, Arik and Kneib, Thomas and R{\"u}gamer, David and S{\"a}fken, Benjamin},
-  journal={Transactions on Machine Learning Research},
-  year={2024},
-  selected = {true}
-}
-
-@article{thielmann2024topics,
-  title={Topics in the haystack: Enhancing topic quality through corpus expansion},
-  author={Thielmann, Anton and Reuter, Arik and Seifert, Quentin and Bergherr, Elisabeth and S{\"a}fken, Benjamin},
-  journal={Computational Linguistics},
-  volume={50},
-  number={2},
-  pages={619--655},
-  year={2024},
-  selected = {true}
-}
-
-@article{thielmann2024mambular,
-  title={Mambular: A Sequential Model for Tabular Deep Learning},
-  author={Thielmann, Anton Frederik and Kumar, Manish and Weisser, Christoph and Reuter, Arik and S{\"a}fken, Benjamin and Samiee, Soheila},
-  journal={arXiv preprint arXiv:2408.06291},
-  year={2024},
-  selected = {true}
-}
-
-@article{reuter2024gptopic,
-  title={GPTopic: Dynamic and Interactive Topic Representations},
-  author={Reuter, Arik and Khadka, Binod and Thielmann, Anton and Weisser, Christoph and Fischer, Sebastian and S{\"a}fken, Benjamin},
-  journal={arXiv preprint arXiv:2403.03628},
-  year={2024},
-  selected = {true}
-}
-
-@article{reuter2024neural,
-  title={Neural Additive Image Model: Interpretation through Interpolation},
-  author={Reuter, Arik and Thielmann, Anton and Saefken, Benjamin},
-  journal={arXiv preprint arXiv:2405.02295},
-  year={2024},
-  selected = {true}
-}
-
-@article{weisser2023pseudo,
-  title={Pseudo-document simulation for comparing LDA, GSDMM and GPM topic models on short and sparse text using Twitter data},
-  author={Weisser, Christoph and Gerloff, Christoph and Thielmann, Anton and Python, Andre and Reuter, Arik and Kneib, Thomas and S{\"a}fken, Benjamin},
-  journal={Computational Statistics},
-  volume={38},
-  number={2},
-  pages={647--674},
-  year={2023},
-  publisher={Springer},
+  doi={10.1007/s00180-022-01246-z},
+  url={https://doi.org/10.1007/s00180-022-01246-z},
   selected = {true}
 }
