@@ -19,7 +19,7 @@ latest_posts: false
 
 I am a PhD student at the University of Cambridge and the Max Planck Institute for Intelligent Systems in Tübingen, working with Bernhard Schölkopf, Adrian Weller and José Miguel Hernández-Lobato.
 
-My research focuses on tabular causal foundation models. Causal questions arise across many fields, and I study how foundation models can help answer them.
+Currently, my main research interest are Tabular Causal Foundation Models. Causal problems are everywhere; and I am interested in researching how to use foundation models for solving them.
 
 Please feel free to contact me via [email](https://mailhide.io/e/sQh9RitB). 
 
