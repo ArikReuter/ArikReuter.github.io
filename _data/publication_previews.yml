@@ -39,11 +39,3 @@ mueller2025priorfitted:
   figure: "Figure 1(a), diagram"
   page: 1
   crop: [310, 170, 530, 323]
-
-reuter2025probabilistic:
-  file: transformer-topic-model.webp
-  alt: "TNTM combines word and text embeddings with a variational autoencoder"
-  source: "https://arxiv.org/pdf/2403.03737"
-  figure: "Figure 1"
-  page: 4
-  crop: [74, 245, 277, 505]
