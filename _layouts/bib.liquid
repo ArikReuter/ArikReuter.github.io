@@ -204,6 +204,25 @@
       {{ entry.note | strip }}
     </div>
 
+    <!-- Paper resources -->
+    {% if entry.pdf or entry.code %}
+      <div class="publication-resources">
+        {% if entry.pdf %}
+          {% assign pdf_url = entry.pdf %}
+          {% unless entry.pdf contains '://' %}
+            {% assign pdf_url = entry.pdf | prepend: '/assets/pdf/' | relative_url %}
+          {% endunless %}
+          <a href="{{ pdf_url | escape }}" aria-label="{{ entry.pdf_label | default: 'PDF' | escape }}: {{ entry.title | escape }}">
+            {{- entry.pdf_label | default: 'PDF' -}}
+          </a>
+        {% endif %}
+        {% if entry.pdf and entry.code %}<span aria-hidden="true">&middot;</span>{% endif %}
+        {% if entry.code %}
+          <a href="{{ entry.code | escape }}" aria-label="Code: {{ entry.title | escape }}">Code</a>
+        {% endif %}
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
@@ -227,13 +246,6 @@
           <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
         {% endif %}
       {% endif %}
-      {% if entry.pdf %}
-        {% if entry.pdf contains '://' %}
-          <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% else %}
-          <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
-        {% endif %}
-      {% endif %}
       {% if entry.supp %}
         {% if entry.supp contains '://' %}
           <a href="{{ entry.supp }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
@@ -248,9 +260,6 @@
       {% endif %}
       {% if entry.blog %}
         <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-      {% endif %}
-      {% if entry.code %}
-        <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
       {% endif %}
       {% if entry.poster %}
         {% if entry.poster contains '://' %}
