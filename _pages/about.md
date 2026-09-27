@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.eng.cam.ac.uk/profiles/ar2364'>University of Cambridge</a>
+subtitle: >
+  <a href="https://is.mpg.de/ei/person/arikreuter">Max-Planck Institute for Intelligent Systems, Tübingen</a><br>
+  <a href="https://www.eng.cam.ac.uk/profiles/ar2364">University of Cambridge</a>
 
 profile:
   align: right
@@ -20,4 +22,3 @@ I am a PhD student at the University of Cambridge and the Max Planck Institute f
 Please feel free to contact me via [email](https://mailhide.io/e/sQh9RitB). 
 
 You can also find me on [Google Scholar](https://scholar.google.com/citations?user=ei6AssYAAAAJ) and [GitHub](https://github.com/ArikReuter).
-
